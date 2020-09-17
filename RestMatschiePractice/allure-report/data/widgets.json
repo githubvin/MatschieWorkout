@@ -1,0 +1,56 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "time" : {
+      "minDuration" : 1,
+      "maxDuration" : 19716,
+      "sumDuration" : 93803,
+      "start" : 1596094051475,
+      "stop" : 1596094109264,
+      "duration" : 57789
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 10
+  } ],
+  "behaviors" : {
+    "total" : 2,
+    "items" : [ {
+      "name" : "Create New Incident",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "name" : "Create New Change Request",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "launches" : [ ]
+}

@@ -1,0 +1,276 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 10
+  },
+  "time" : {
+    "minDuration" : 1,
+    "maxDuration" : 19716,
+    "sumDuration" : 93803,
+    "start" : 1596094051475,
+    "stop" : 1596094109264,
+    "duration" : 57789
+  },
+  "children" : [ {
+    "uid" : "5a9b0e7b34a8fd39",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 1,
+      "maxDuration" : 19716,
+      "sumDuration" : 57666,
+      "start" : 1596094051475,
+      "stop" : 1596094109264,
+      "duration" : 57789
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "21c24da57eab2689",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 1,
+        "maxDuration" : 19716,
+        "sumDuration" : 57666,
+        "start" : 1596094051475,
+        "stop" : 1596094109264,
+        "duration" : 57789
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "85ebb6d675c10420",
+        "name" : "getIncidents",
+        "time" : {
+          "start" : 1596094109263,
+          "stop" : 1596094109264,
+          "duration" : 1
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "3db1a174dfb30f8f",
+        "name" : "Runs Cucumber Scenarios",
+        "time" : {
+          "start" : 1596094071201,
+          "stop" : 1596094080164,
+          "duration" : 8963
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "b5db42134e633bf3",
+        "name" : "Runs Cucumber Scenarios",
+        "time" : {
+          "start" : 1596094080190,
+          "stop" : 1596094089876,
+          "duration" : 9686
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "8afe659b0a4256ee",
+        "name" : "createIncident",
+        "time" : {
+          "start" : 1596094109231,
+          "stop" : 1596094109257,
+          "duration" : 26
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "691af6fe8de644d5",
+        "name" : "getChangeRequest",
+        "time" : {
+          "start" : 1596094098844,
+          "stop" : 1596094109198,
+          "duration" : 10354
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "acf324bfee8b20f5",
+        "name" : "Runs Cucumber Scenarios",
+        "time" : {
+          "start" : 1596094051475,
+          "stop" : 1596094071191,
+          "duration" : 19716
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "8504b879848df025",
+        "name" : "createChangeRequest",
+        "time" : {
+          "start" : 1596094089920,
+          "stop" : 1596094098840,
+          "duration" : 8920
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "bc2d65c1a6c73140",
+    "name" : "Create New Change Request",
+    "time" : {
+      "minDuration" : 17574,
+      "maxDuration" : 17574,
+      "sumDuration" : 17574,
+      "start" : 1596094052670,
+      "stop" : 1596094070244,
+      "duration" : 17574
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "74d43b4fe98b5af0",
+      "name" : "Create a new change request with short description",
+      "time" : {
+        "minDuration" : 17574,
+        "maxDuration" : 17574,
+        "sumDuration" : 17574,
+        "start" : 1596094052670,
+        "stop" : 1596094070244,
+        "duration" : 17574
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "f2ca3779d8526d05",
+        "name" : "Create a new change request with short description",
+        "time" : {
+          "start" : 1596094052670,
+          "stop" : 1596094070244,
+          "duration" : 17574
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "cd7488d684ffd10b",
+    "name" : "Create New Incident",
+    "time" : {
+      "minDuration" : 8923,
+      "maxDuration" : 9640,
+      "sumDuration" : 18563,
+      "start" : 1596094071225,
+      "stop" : 1596094089838,
+      "duration" : 18613
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "efded4c4fff968ce",
+      "name" : "Create a new incident with short description",
+      "time" : {
+        "minDuration" : 8923,
+        "maxDuration" : 8923,
+        "sumDuration" : 8923,
+        "start" : 1596094071225,
+        "stop" : 1596094080148,
+        "duration" : 8923
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "84c220f9f32cf1cf",
+        "name" : "Create a new incident with short description",
+        "time" : {
+          "start" : 1596094071225,
+          "stop" : 1596094080148,
+          "duration" : 8923
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "4591220cef7dd12c",
+      "name" : "Create a new incident with description",
+      "time" : {
+        "minDuration" : 9640,
+        "maxDuration" : 9640,
+        "sumDuration" : 9640,
+        "start" : 1596094080198,
+        "stop" : 1596094089838,
+        "duration" : 9640
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "3334d6e58c6770b",
+        "name" : "Create a new incident with description",
+        "time" : {
+          "start" : 1596094080198,
+          "stop" : 1596094089838,
+          "duration" : 9640
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

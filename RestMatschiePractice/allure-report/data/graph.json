@@ -1,0 +1,101 @@
+[ {
+  "uid" : "85ebb6d675c10420",
+  "name" : "getIncidents",
+  "time" : {
+    "start" : 1596094109263,
+    "stop" : 1596094109264,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f2ca3779d8526d05",
+  "name" : "Create a new change request with short description",
+  "time" : {
+    "start" : 1596094052670,
+    "stop" : 1596094070244,
+    "duration" : 17574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84c220f9f32cf1cf",
+  "name" : "Create a new incident with short description",
+  "time" : {
+    "start" : 1596094071225,
+    "stop" : 1596094080148,
+    "duration" : 8923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3db1a174dfb30f8f",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1596094071201,
+    "stop" : 1596094080164,
+    "duration" : 8963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5db42134e633bf3",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1596094080190,
+    "stop" : 1596094089876,
+    "duration" : 9686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8afe659b0a4256ee",
+  "name" : "createIncident",
+  "time" : {
+    "start" : 1596094109231,
+    "stop" : 1596094109257,
+    "duration" : 26
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "691af6fe8de644d5",
+  "name" : "getChangeRequest",
+  "time" : {
+    "start" : 1596094098844,
+    "stop" : 1596094109198,
+    "duration" : 10354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acf324bfee8b20f5",
+  "name" : "Runs Cucumber Scenarios",
+  "time" : {
+    "start" : 1596094051475,
+    "stop" : 1596094071191,
+    "duration" : 19716
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8504b879848df025",
+  "name" : "createChangeRequest",
+  "time" : {
+    "start" : 1596094089920,
+    "stop" : 1596094098840,
+    "duration" : 8920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3334d6e58c6770b",
+  "name" : "Create a new incident with description",
+  "time" : {
+    "start" : 1596094080198,
+    "stop" : 1596094089838,
+    "duration" : 9640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

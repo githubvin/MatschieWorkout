@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32157" started-at="2020-07-29T22:10:29 IST" finished-at="2020-07-29T22:11:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32157" started-at="2020-07-29T22:10:29 IST" finished-at="2020-07-29T22:11:01 IST">
+      <class name="services.ChangeManagementTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:services.ChangeManagementTests@31024624]" name="setUp" is-config="true" duration-ms="2029" started-at="2020-07-29T22:10:27 IST" finished-at="2020-07-29T22:10:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createChangeRequest()[pri:0, instance:services.ChangeManagementTests@31024624]" name="createChangeRequest" duration-ms="23674" started-at="2020-07-29T22:10:29 IST" finished-at="2020-07-29T22:10:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChangeRequest -->
+        <test-method status="PASS" signature="getChangeRequest()[pri:0, instance:services.ChangeManagementTests@31024624]" name="getChangeRequest" duration-ms="8099" started-at="2020-07-29T22:10:53 IST" finished-at="2020-07-29T22:11:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChangeRequest -->
+      </class> <!-- services.ChangeManagementTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

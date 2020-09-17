@@ -1,0 +1,179 @@
+{
+  "uid" : "84c220f9f32cf1cf",
+  "name" : "Create a new incident with short description",
+  "fullName" : "Create New Incident: Create a new incident with short description",
+  "historyId" : "8f49713feb264e1368ba9aeedc487fb2",
+  "time" : {
+    "start" : 1596094071225,
+    "stop" : 1596094080148,
+    "duration" : 8923
+  },
+  "status" : "passed",
+  "beforeStages" : [ {
+    "name" : "hooks.Initialize.setUp()",
+    "time" : {
+      "start" : 1596094071226,
+      "stop" : 1596094071227,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  user is authenticated",
+      "time" : {
+        "start" : 1596094071228,
+        "stop" : 1596094071229,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "And  short description is added with Added from Cucumber",
+      "time" : {
+        "start" : 1596094071230,
+        "stop" : 1596094071230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "When  new incident is created",
+      "time" : {
+        "start" : 1596094071230,
+        "stop" : 1596094079979,
+        "duration" : 8749
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Then  the status code is 201",
+      "time" : {
+        "start" : 1596094079982,
+        "stop" : 1596094079984,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "And  response includes the following",
+      "time" : {
+        "start" : 1596094079984,
+        "stop" : 1596094080147,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d42ee9a0bf3a25ac",
+        "name" : "Data table",
+        "source" : "d42ee9a0bf3a25ac.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 59
+      } ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "hooks.Initialize.tearDown()",
+    "time" : {
+      "start" : 1596094080148,
+      "stop" : 1596094080148,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "VIN-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5600@VIN-PC.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Create New Incident"
+  }, {
+    "name" : "story",
+    "value" : "Create a new incident with short description"
+  }, {
+    "name" : "suite",
+    "value" : "Create New Incident"
+  }, {
+    "name" : "testClass",
+    "value" : "Create a new incident with short description"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///E:/Project%20WS/Matschie/src/test/java/features/CreateIncident.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.java.features.CreateIncident_feature.Create New Incident"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

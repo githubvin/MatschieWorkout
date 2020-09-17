@@ -1,0 +1,69 @@
+{
+  "uid" : "691af6fe8de644d5",
+  "name" : "getChangeRequest",
+  "fullName" : "services.ChangeManagementTests.getChangeRequest",
+  "historyId" : "125794d89c99a4553ff447836d924f8c",
+  "time" : {
+    "start" : 1596094098844,
+    "stop" : 1596094109198,
+    "duration" : 10354
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1596094044713,
+      "stop" : 1596094049084,
+      "duration" : 4371
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "services.ChangeManagementTests"
+  }, {
+    "name" : "testClass",
+    "value" : "services.ChangeManagementTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "getChangeRequest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "services.ChangeManagementTests"
+  }, {
+    "name" : "host",
+    "value" : "VIN-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5600@VIN-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

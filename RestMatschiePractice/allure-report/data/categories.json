@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 1,
+    "maxDuration" : 26,
+    "sumDuration" : 27,
+    "start" : 1596094109231,
+    "stop" : 1596094109264,
+    "duration" : 33
+  },
+  "children" : [ {
+    "uid" : "104d3c7f0162762e",
+    "name" : "Test defects",
+    "time" : {
+      "minDuration" : 1,
+      "maxDuration" : 26,
+      "sumDuration" : 27,
+      "start" : 1596094109231,
+      "stop" : 1596094109264,
+      "duration" : 33
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "e94f913f7bc93556",
+      "name" : "java.lang.NullPointerException",
+      "time" : {
+        "minDuration" : 1,
+        "maxDuration" : 26,
+        "sumDuration" : 27,
+        "start" : 1596094109231,
+        "stop" : 1596094109264,
+        "duration" : 33
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "85ebb6d675c10420",
+        "name" : "getIncidents",
+        "time" : {
+          "start" : 1596094109263,
+          "stop" : 1596094109264,
+          "duration" : 1
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "8afe659b0a4256ee",
+        "name" : "createIncident",
+        "time" : {
+          "start" : 1596094109231,
+          "stop" : 1596094109257,
+          "duration" : 26
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

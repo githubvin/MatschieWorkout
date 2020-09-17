@@ -1,0 +1,276 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 8,
+    "unknown" : 0,
+    "total" : 10
+  },
+  "time" : {
+    "minDuration" : 1,
+    "maxDuration" : 19716,
+    "sumDuration" : 93803,
+    "start" : 1596094051475,
+    "stop" : 1596094109264,
+    "duration" : 57789
+  },
+  "children" : [ {
+    "uid" : "8527d539aa5ebb49",
+    "name" : "services",
+    "time" : {
+      "minDuration" : 1,
+      "maxDuration" : 10354,
+      "sumDuration" : 19301,
+      "start" : 1596094089920,
+      "stop" : 1596094109264,
+      "duration" : 19344
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "11e2c980b5364200",
+      "name" : "IncidentTests",
+      "time" : {
+        "minDuration" : 1,
+        "maxDuration" : 26,
+        "sumDuration" : 27,
+        "start" : 1596094109231,
+        "stop" : 1596094109264,
+        "duration" : 33
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "85ebb6d675c10420",
+        "name" : "getIncidents",
+        "time" : {
+          "start" : 1596094109263,
+          "stop" : 1596094109264,
+          "duration" : 1
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "8afe659b0a4256ee",
+        "name" : "createIncident",
+        "time" : {
+          "start" : 1596094109231,
+          "stop" : 1596094109257,
+          "duration" : 26
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "2ee1819831159431",
+      "name" : "ChangeManagementTests",
+      "time" : {
+        "minDuration" : 8920,
+        "maxDuration" : 10354,
+        "sumDuration" : 19274,
+        "start" : 1596094089920,
+        "stop" : 1596094109198,
+        "duration" : 19278
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "691af6fe8de644d5",
+        "name" : "getChangeRequest",
+        "time" : {
+          "start" : 1596094098844,
+          "stop" : 1596094109198,
+          "duration" : 10354
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "8504b879848df025",
+        "name" : "createChangeRequest",
+        "time" : {
+          "start" : 1596094089920,
+          "stop" : 1596094098840,
+          "duration" : 8920
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "b1b05a99a14c58f5",
+    "name" : "src.test.java.features",
+    "time" : {
+      "minDuration" : 8923,
+      "maxDuration" : 17574,
+      "sumDuration" : 36137,
+      "start" : 1596094052670,
+      "stop" : 1596094089838,
+      "duration" : 37168
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "e7721ae00db1f4e8",
+      "name" : "CreateChangeRequest_feature.Create New Change Request",
+      "time" : {
+        "minDuration" : 17574,
+        "maxDuration" : 17574,
+        "sumDuration" : 17574,
+        "start" : 1596094052670,
+        "stop" : 1596094070244,
+        "duration" : 17574
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "f2ca3779d8526d05",
+        "name" : "Create a new change request with short description",
+        "time" : {
+          "start" : 1596094052670,
+          "stop" : 1596094070244,
+          "duration" : 17574
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "e218ea0f1327a714",
+      "name" : "CreateIncident_feature.Create New Incident",
+      "time" : {
+        "minDuration" : 8923,
+        "maxDuration" : 9640,
+        "sumDuration" : 18563,
+        "start" : 1596094071225,
+        "stop" : 1596094089838,
+        "duration" : 18613
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "84c220f9f32cf1cf",
+        "name" : "Create a new incident with short description",
+        "time" : {
+          "start" : 1596094071225,
+          "stop" : 1596094080148,
+          "duration" : 8923
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "3334d6e58c6770b",
+        "name" : "Create a new incident with description",
+        "time" : {
+          "start" : 1596094080198,
+          "stop" : 1596094089838,
+          "duration" : 9640
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  }, {
+    "uid" : "cf30f53971dac029",
+    "name" : "runner.RunTest",
+    "time" : {
+      "minDuration" : 8963,
+      "maxDuration" : 19716,
+      "sumDuration" : 38365,
+      "start" : 1596094051475,
+      "stop" : 1596094089876,
+      "duration" : 38401
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "3db1a174dfb30f8f",
+      "name" : "runScenario",
+      "time" : {
+        "start" : 1596094071201,
+        "stop" : 1596094080164,
+        "duration" : 8963
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "b5db42134e633bf3",
+      "name" : "runScenario",
+      "time" : {
+        "start" : 1596094080190,
+        "stop" : 1596094089876,
+        "duration" : 9686
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "acf324bfee8b20f5",
+      "name" : "runScenario",
+      "time" : {
+        "start" : 1596094051475,
+        "stop" : 1596094071191,
+        "duration" : 19716
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}
